@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="css/modern.css">
+<title>TRADUTOR</title>
+</head>
+<body>
+<button class="drawer-toggle" id="drawerToggle">☰</button>
+
+<h1>TRADUTOR PROFISSIONAL</h1>
+      <aside class="drawer" id="drawer">
+      <div class="drawer-header">
+      <h2>Menu</h2>
+      <button id="closeDrawer">×</button>
+</div>
+<h1>TRADUTOR</h1>
+      <br>
+      </br>
+      <ul class="drawer-menu">
+<li>
+<button class="theme-btn" onclick="toggleTheme()">
+      <span class="theme-icon"></span> Alternar Tema
+      </button>
+      </li>
+      </ul>
+      <br>
+</br>
+  
+<div class="containerT">
+      <div class="table-responsive">
+      <div class="table-item">
+      <div class="item-title">Tipo de Conteúdo</div>
+      <div class="item-content"><b>Código (JS / Python)</b></div>
+      <div class="item-status no">❌ Não</div>
+      <div class="item-example"><code>ui.addAppBar(main, "My App", "Menu,Primary")</code></div>
+</div>
+
+<div class="table-item">
+      <div class="item-title">Propriedades, Métodos e Funções</div>
+      <div class="item-status no">❌ Não</div>
+      <div class="item-example"><code>setOnMenu</code>,<code>addDrawer</code>,<code>showPopup</code></div>
+</div>
+
+<div class="table-item">
+      <div class="item-title">HTML e Atributos</div>
+      <div class="item-status no">❌ Não</div>
+      <div class="item-example"><code>data-role="popup"</code>,<code>id="examp3"</code></div>
+</div>
+
+<div class="table-item">
+      <div class="item-title">Texto Explicativo / Descritivo</div>
+      <div class="item-status yes">✅ Sim</div>
+      <div class="item-example">"Adiciona uma barra de aplicativos ao seu aplicativo."</div>
+      </div>
+</div>
+  	</br>
+<div class="table-item">
+      <div class="item-title">Títulos e Cabeçalhos Visuais</div>
+      <div class="item-status yes">✅ Sim</div>
+      <div class="item-example">"Exemplo – Appbar com campo de pesquisa"</div>
+      </div>
+</div>
+<footer>
+    ⚙️ Use este guia para evitar erros de tradução em arquivos HTML.<br>
+    Preserve o código e atributos originais; traduza apenas descrições.
+      </footer>
+  	</br>
+      </aside>
+      <br>
+      </br>
+      <br>
+</br>
+
+<nav class="top-bar">
+      <div class="top-actions">
+      <label for="fileInput" class="file-label">Carregar arquivo</label>
+<input type="file" id="fileInput" accept=".html,.htm,.xml">
+    	
+<select id="toLang">
+      <option value=""en">Inglês</option>
+      <option value="pt">Português</option>
+      <option value="es">Espanhol</option>
+      <option value="fr">Francês</option>
+      <option value="de">Alemão</option>
+      <option value="ja">Japonês</option>
+      <option value="zh">Chinês</option>
+      <option value="ar">Árabe</option>
+      <option value="af">Africâner</option>
+      <option value="ru">Rússo</option>
+      <option value="it">Italiano</option>
+      <option value="nl">Neerlandês</option>
+      <option value="ko">Coreano</option>
+      <option value="hi">Hindi</option>
+      <option value="sv">Sueco</option>
+      <option value="da">Dinamarquês</option>
+      <option value="no">Norueguês</option>
+      <option value="pl">Polonês</option>
+      <option value="tr">Turco</option>
+      <option value="cs">Tcheco</option>
+      <option value="el">Grego</option>
+      <option value="th">Tailandês</option>
+      <option value="id">Indonésio</option>
+      <option value="vi">Vietnamita</option>
+      <option value="sw">Suaíli</option>
+      <option value="fa">Persa</option>
+      <option value="he">Hebraico</option>
+      <option value="uk">Ucraniano</option>
+      <option value="ms">Malaio</option>
+      <option value="tl">Tagalog</option>
+      <option value="bn">Bengali</option>
+      <option value="pa">Punjabi</option>
+      <option value="mr">Marata</option>
+      <option value="ta">Tâmil</option>
+      <option value="te">Telugu</option>
+      <option value="gu">Gujarati</option>
+      <option value="kn">Canarês</option>
+      <option value="ml">Malaiala</option>
+      <option value="or">Odiá</option>
+      <option value="as">Assamês</option>
+      <option value="si">Cingalês</option>
+      <option value="km">Cambojano</option>
+      <option value="my">Birmanês</option>
+      <option value="lo">Lao</option>
+      <option value="ne">Nepalês</option>
+      <option value="sr">Sérvio</option>
+      <option value="hr">Croata</option>
+      <option value="bs">Bósnio</option>
+      <option value="mk">Macedônio</option>
+      <option value="sq">Albanês</option>
+      <option value="mt">Maltês</option>
+      <option value="cy">Galês</option>
+      <option value="eu">Basco</option>
+      <option value="is">Islandês</option>
+      <option value="lv">Letão</option>
+      <option value="lt">Lituano</option>
+      <option value="et">Estoniano</option>
+      <option value="fi">Finlandês</option>
+      <option value="hu">Húngaro</option>
+      <option value="ro">Romeno</option>
+      <option value="bg">Búlgaro</option>
+      <option value="sr">Sérvio</option>
+      <option value="sk">Eslovaco</option>
+      <option value="sl">Esloveno</option>
+      <option value="hr">Croata</option>
+      <option value="ka">Georgiano</option>
+      <option value="sq">Albanês</option>
+      <option value="hy">Armênio</option>
+      <option value="be">Bielorrusso</option>
+      <option value="cy">Galês</option>
+      <option value="ka">Georgiano</option>
+      </select>
+      </div>
+</nav>
+
+<div class="container">
+      <button id="translateBtn">Traduzir</button>
+      </br>
+      <div class="section-title">Strings encontradas:</div>
+      <div class="result" id="stringList"></div>
+      <br>
+</br>
+  
+<div class="section-title">Strings em atributos:</div>
+      <div class="result" id="eventList"></div>
+      <br>
+      </br>
+      <center>
+      <button id="downloadBtn">BAIXAR</button>
+      <br>
+      </br>
+      </center>
+</div>
+
+<div id="loadingScreen">
+      <div class="spinner"></div>
+      <div id="loadingText">Traduzindo 0%</div>
+</div>
+
+<script src="js/script.js"></script>
+      </body>
+</html>
